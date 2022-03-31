@@ -14,6 +14,10 @@ body {
   background-position: center center;
 }
 
+.divGap {
+  height: 50px;
+}
+
 .r_easyBanner-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,10 +57,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.divGap {
-  height: 50px;
 }
 
 .r_easyBanner-1 {

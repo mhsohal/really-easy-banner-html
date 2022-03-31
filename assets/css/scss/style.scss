@@ -2,19 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 // Variable
-$r_easyBannerbg-color-1: #e4d8bd;
-$r_easyBannerText-color-1: #272727;
-$r_easyBannerText-color-2: #e11c3e;
-$r_easyBannerButton-color-1: #fa5052;
-$r_easyBannerFont-Thin:100;
-$r_easyBannerFont-ExtraLight:200;
-$r_easyBannerFont-Light:300;
-$r_easyBannerFont-Regular:400;
-$r_easyBannerFont-Medium:500;
-$r_easyBannerFont-SemiBold:600;
-$r_easyBannerFont-Bold:700;
-$r_easyBannerFont-ExtraBold:800;
-$r_easyBannerFont-Black:900;
+@import "variable";
 
 body {
     margin: 0;
@@ -30,56 +18,15 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
 }
-.r_easyBanner-wrap{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-.r_easyBanner-text {
-    font-weight: $r_easyBannerFont-SemiBold;
-}
 
-.r_easyBanner-link {
-    color: $r_easyBannerText-color-2;
-}
-.r_easyBanner-btn{
-    display: inline-block;
-    width: 175px;
-    height: 49px;
-    border: 1px solid $r_easyBannerButton-color-1;
-    background-color: $r_easyBannerButton-color-1;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .divGap{
     height: 50px;
 }
+// Common
+@import "common";
 // Banner 01
-.r_easyBanner-1 {
-    background-color: $r_easyBannerbg-color-1;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+@import "banner-1";
 // Banner 02
-.r_easyBanner-2 {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+@import "banner-2";
 // Banner 03
-.r_easyBanner-3 {
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+@import "banner-3";

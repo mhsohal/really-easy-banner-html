@@ -1,0 +1,26 @@
+.r_easyBanner-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.r_easyBanner-text {
+    font-weight: $r_easyBannerFont-SemiBold;
+}
+
+.r_easyBanner-link {
+    color: $r_easyBannerText-color-2;
+}
+.r_easyBanner-btn{
+    display: inline-block;
+    width: 175px;
+    height: 49px;
+    border: 1px solid $r_easyBannerButton-color-1;
+    background-color: $r_easyBannerButton-color-1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
